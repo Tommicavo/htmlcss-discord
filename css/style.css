@@ -1,0 +1,175 @@
+/* Css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+/* Generics */
+header{
+    background-color: lightskyblue;
+    color: white;
+}
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h3{
+    padding: 20px 0;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+.top_header{
+    justify-content: space-between;
+}
+
+.top_header > *{
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+.logo{
+    flex-basis: 20%;
+    text-align: left;
+}
+
+.nav_bar{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.login{
+    flex-basis: 20%;
+    text-align: right;
+}
+
+.spotlight{
+    padding: 50px 0;
+    max-width: 30%;
+    margin: 0 auto;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.spotlight_buttons{
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn.mac{
+    width: 180px;
+    background-color: white;
+    color: black;
+}
+
+.btn.browser{
+    width: 230px;
+    background-color: black;
+    color: white;
+}
+
+/* Main */
+.row_white{
+    background-color: white;
+    padding: 50px 0;
+}
+
+.row_gray{
+    background-color: gray;
+    padding: 50px 0;
+}
+
+.row_section{
+    align-items: center;
+}
+
+.row_big_section{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sec_large{
+    flex-basis: 65%;
+}
+
+.sec_small{
+    flex-basis: 35%;
+}
+
+/* Footer */
+.top_footer{
+    padding: 50px 0;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+}
+
+.social_footer{
+    flex-basis: 30%;
+}
+
+.nav_footer{
+    flex-basis: 70%;
+}
+
+.nav_f{
+    flex-basis: 25%;
+}
+
+.bottom_footer{
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
