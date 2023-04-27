@@ -136,6 +136,7 @@ li{
     padding: 50px 0;
     border-bottom: 2px solid #879AD6;
     margin-bottom: 20px;
+    align-items: baseline;
 }
 
 .social_footer{
@@ -160,6 +161,11 @@ li{
     color: #758CE0;
 }
 
+.lang{
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .flag_ita{
     height: 1rem;
 }
@@ -170,16 +176,30 @@ li{
     font-weight: 900;
 }
 
+.it::after{
+    content: "";
+}
+
+.fa-brands{
+    padding: 20px 10px;
+}
+
 /* Buttons */
 .btn{
     padding: 10px;
     border-radius: 20px;
 }
 
-.btn.mac{
+.btn.mac_white{
     width: 180px;
     background-color: white;
     color: black;
+}
+
+.btn.mac_blue{
+    width: 180px;
+    background-color: #8EA1E1;
+    color: white;
 }
 
 .btn.browser{
