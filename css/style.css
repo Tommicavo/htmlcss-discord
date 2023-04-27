@@ -28,7 +28,7 @@ body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1, h3{
+header h1{
     padding: 20px 0;
 }
 
@@ -46,8 +46,13 @@ img{
 }
 
 footer{
-    background-color: black;
+    background-color: #23272A;
     color: white;
+}
+
+li{
+    list-style-type: none;
+    padding: 6px 0;
 }
 
 /* Header */
@@ -94,7 +99,7 @@ footer{
 }
 
 .row_gray{
-    background-color: gray;
+    background-color: #F6F6F6;
     padding: 50px 0;
 }
 
@@ -115,10 +120,21 @@ footer{
     flex-basis: 35%;
 }
 
+.row_big_section h3{
+    padding: 20px 0;
+}
+
+.big_row_closer{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 /* Footer */
 .top_footer{
     padding: 50px 0;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #879AD6;
     margin-bottom: 20px;
 }
 
@@ -137,6 +153,21 @@ footer{
 .bottom_footer{
     padding: 50px 0;
     justify-content: space-between;
+}
+
+.social_footer h2{
+    font-size: 2rem;
+    color: #758CE0;
+}
+
+.flag_ita{
+    height: 1rem;
+}
+
+.list_title{
+    color: #758CE0;
+    font-size: 1.2rem;
+    font-weight: 900;
 }
 
 /* Buttons */
@@ -160,6 +191,11 @@ footer{
 .btn.log_in{
     background-color: white;
     color: black;
+}
+
+.btn.signin{
+    background-color: #879AD6;
+    color: white;
 }
 
 
