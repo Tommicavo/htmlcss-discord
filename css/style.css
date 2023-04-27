@@ -15,6 +15,11 @@
     margin: 0 auto;
 }
 
+.sec_3_container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* Generics */
 header{
     background-image: url("../img/jumbo.png");
@@ -34,6 +39,8 @@ header h1{
 
 h2{
     padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 a{
@@ -113,11 +120,11 @@ li{
 }
 
 .sec_large{
-    flex-basis: 65%;
+    flex-basis: 70%;
 }
 
 .sec_small{
-    flex-basis: 35%;
+    flex-basis: 30%;
 }
 
 .row_big_section h3{
@@ -129,6 +136,18 @@ li{
     background-repeat: no-repeat;
     max-width: 50%;
     margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.wave_up{
+    display: block;
+    color: #F6F6F6;
+}
+
+.wave_down{
+    display: block;
+    color: #F6F6F6;
+    transform: rotate(180deg);
 }
 
 /* Footer */
@@ -213,7 +232,7 @@ li{
     color: black;
 }
 
-.btn.signin{
+.btn.sign_in{
     background-color: #879AD6;
     color: white;
 }
